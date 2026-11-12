@@ -4,6 +4,20 @@ A responsive Laravel application for viewing today's tasks, exploring the full s
 
 The application has four public, read-only pages. It uses controllers, Eloquent models, migrations, seeders, and a shared Blade layout. No login or task modification workflow is required by this assessment.
 
+## Output screenshots
+
+Actual full-page captures of the running Laravel application on November 12, 2026 (Asia/Manila). The Dashboard shows only today's four tasks; All Tasks shows all eight tasks across three dates. Profile username and email remain the documented editable placeholders.
+
+| Dashboard — Today's Tasks | All Tasks |
+| --- | --- |
+| [![Dashboard showing today's tasks](docs/screenshots/01-dashboard.jpg)](docs/screenshots/01-dashboard.jpg) | [![All eight tasks sorted by date](docs/screenshots/02-all-tasks.jpg)](docs/screenshots/02-all-tasks.jpg) |
+
+| My Profile | About the Application |
+| --- | --- |
+| [![Database-backed profile page](docs/screenshots/03-profile.jpg)](docs/screenshots/03-profile.jpg) | [![About page with developer and course information](docs/screenshots/04-about.jpg)](docs/screenshots/04-about.jpg) |
+
+Click any screenshot to view it at full size. The original screenshot files are in [`docs/screenshots`](docs/screenshots).
+
 ## Requirements
 
 - PHP **8.4.1 or later** (the locked Symfony dependencies require this; verified on PHP 8.5.10).

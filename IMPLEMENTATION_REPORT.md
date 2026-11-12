@@ -106,6 +106,7 @@ Refresh demo tasks on a later day with `php artisan db:seed --class=TaskSeeder`.
 - [x] Eight demo tasks, three dates, four today, exactly one seeded profile.
 - [x] Four functional controller routes and consistent Blade views.
 - [x] Automated feature tests and local browser checks.
+- [x] Four full-page application output screenshots in `docs/screenshots/`, displayed in the README.
 - [x] Setup, database, testing, GitHub, and deployment documentation.
 - [x] Secrets, dependency folders, generated caches, and local databases excluded from the source archive and Git staging rules.
 - [ ] Replace the clearly marked username/email placeholders with your values.
